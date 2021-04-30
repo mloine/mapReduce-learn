@@ -5,7 +5,11 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
-
+/**
+ * @Author mloine
+ * @Description 
+ * @Date 5:31 下午 2021/4/30
+ */
 public class SelectShapeReduce extends Reducer<Text, IntWritable,Text, IntWritable> {
 
     private IntWritable result = new IntWritable();
